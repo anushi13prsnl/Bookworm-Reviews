@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign Up</title>
+</head>
+
+<header>
+    <nav>
+        <div>
+            <img src="logo.jpg" alt="logo" width="80" height="75">
+            <!-- <h2> BookWorm Reviews </h2> -->
+        </div>
+        <ul>
+            <li><a href="index.html"> HOME </a></li>
+            <li><a href="reviews.html"> VIEW REVIEWS </a></li>
+            <li><a href="share.html"> SHARE WITH US </a></li>
+        </ul>
+    </nav>
+    <hr>
+</header>
+
+<body>
+
+    <div class="container">
+
+        <center>
+            <div>
+                <div>
+                    <h1><b><u>CREATE AN ACCOUNT</u></b></h1>
+                    <br>
+                    <!-- Basic form layout -->
+                    <form id="signupForm" method="POST">
+
+                        <div>
+                            <label for="fisrtname">First Name:</label>
+                            <input type="text" placeholder="First Name" name="firstname" required>
+                        </div><br>
+
+                        <div>
+                            <label for="lastname">Last Name:</label>
+                            <input type="text" placeholder="Last Name" name="lastname" required>
+                        </div><br>
+
+                        <div>
+                            <label for="email">E mail:</label>
+                            <input type="email" placeholder="Email Address" name="email" required>
+                        </div><br>
+
+                        <div>
+                            <label for="cno">Contact Number:</label>
+                            <input type="tel" placeholder="Contact Number" name="cno" required>
+                        </div><br>
+
+                        <div>
+                            <label for="password">Password:</label>
+                            <input type="password" placeholder="8-Digit Password" name="password" required>
+                        </div><br>
+
+                        <div>
+                            <label for="confirm-password">Confirm Password:</label>
+                            <input type="password" placeholder="Confirm-Password" name="confirm-password" required>
+                        </div><br><br>
+
+                        <div>
+                            <button type="submit"><a href="index.html">Sign Up</a></button>
+                        </div>
+
+                    </form>
+
+                    <!-- options -->
+                    <div class="options">
+                        <div>
+                            <h4>or Sign up Using</h4>
+                            <div class="links">
+                                <a href="https://www.google.com"><img
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAMAAAAPdrEwAAABAlBMVEX////lQzU0o1NCgO/2twQ+fu99pPO3y/jlPzA1ee7kNiX2tQD1sgApoEzkMyEvolDkOiocnUTxqKP41tT+9/fjKRPjLhrtjYboYVf76ej3vDH989/504T4x1351Ir85bn979Wo0rJhs3Ykc+7x+PPL5NH64N/1xsP0t7Pxop73z8zulI7mUETjHwDsg3z0v7vreHDpa2LmUDvrdzDkNzf3vgDvkSn0rR/pZjPtgzDwkgD4wz6ZtvVVjPD2uyBnl/HNrgDJ1/mws0SArk/b5ftRqFbCtTsAmDScsEZQrGiqwvdxuoO12b8tj6Y7nn/x9f6Ox5xBht1ElLY8mZQfg73f7+PSyHXZAAAC00lEQVRYhe2VaXfSQBSGJ5PQZiHLsIQuKg07ZSvVulOtFjEFFRf+/19xWJoMkITLkHP8YJ6vmfPw8s69CUIJCQkJCQlAavVGpplp9LK5OK25y1a7kzdU1VJVw+7I3V5M+lpBsC1ZYLAM6yp7uDjb71jCNnK+fXmYONe15QDxQm73D6mlng9K7CdvcJsLdoR4Tr7Aae4bO8yCYF9xmU/UnWZZOOUyR9W8MstcF9ndzCxbqmEYKjPhssyVObNxg5bd7mZ69XqjcGKoB2Wurd+garT8gKeZhZwzM2qziyKrrY3HTUPmzIwabB2WUNs6UBNUvszomgmt9oNO5DjNxfT1Cy/zCZ8jBEm6eb5yy+1YzRdp6n65dHc4/3gITzSJul9dU7PRjNWMzuZqSdJe0+CxfgjReVpacvPGijl08VEt3byNN/Sy6mUl7zYeHSupYJT3IPVTX/0Mqk4dgdS3njpd3FKLwaQGILVnltIXYLW4r/ocqhaVf62WOAoBqrmuMQVSRw5fWGrYhMBXhkn9AaT2F137WFl/dHe0xsBXw7bRez1pn3Qn8uSRl1t5AKlXL1Xt9rNp4siDZS91+R6mXpStnQ0xxiQqtn+pKfEHTD3/gGlf8IJRJfzcwOsD+HaiSJr2dWnGpht66sGfROUYqi5KQ/yIXgo5dO83LZahZoSGpqfGZBxsZsYa3gdCE+KrsY5n2yfumMyiApyPBS4TG5tb410Zf2NWfp/QCM3Y2LQU3WEmZTYmOvkueoWUgZO3wll3Y0LcqVOtVifOmP7Qoqafyn6b6DHW1920Fp1QdHPVlUl+KXu8mVjcTfcW5Pd8SpT96oC63YGy13R4lMgut6n/4TIjNN3l1t2AkYdRJZGlhCwqkDExQ8V4coiZBi+NgpKb+siJeN8CmU3pkpjrXuJGf9rAVKpTdzRfF32+NiNScrhvL5AZXXLKpHp4DwkJCQkJ/wl/AXytQ0Ui6pvrAAAAAElFTkSuQmCC"
+                                        alt="google_logo"></a>
+                                <a href="https://www.facebook.com"><img
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAY1BMVEUYd/L///8NdPJTj/QAcfIAbPH7/v8Ab/E4gvO/1Pp6qPYAafHv9v7h6/2uxfjF2Pva5v1mnPWFrvcaevKhwPmOtfdqn/W4z/qWuvhVk/Q1hfOKsfdjmfV1pfZMjPQlfvPM3vsobh/GAAADrUlEQVRoga2a6aLiIAyFEVnsNrbWtV7n+v5POVRrrTSBQ53zt/I1AgkhqVgBKuvTOb90rXBqu0t+PtUlMk7EfmC217XUVkkpBkmprJbr69Z8BzdZoxxXEHJvUE0W5ofg1bXVJHh8gW6v1SJ43WgVIj+ldFMnw6tj2Oip+UfOehpudhawerTe7ui5J+GZsDi6lxUZCDc5OiNvSZ0Txs/hVZswI2+pdj7zM3gmk80ejJezqfHh+2IZulexD8MPejlbCH0IwXdfsR19x8O/s3tu+xS+/5rt6HsaniWtJbenioyCV2gsUbbQ4rdrW10U2lp/68pqDjctBJe6252qpzcaU95P+1v3OVC2ZgbPEb+URXOfufkfLxCp3IdnyGLa7u6TCbjQ2SfcsAs0UZETaAIuhfmA74AYq88kew4XdjeFVwDb0nZTcGGrCbyJr6bsGDYFV8c3vAZW07LnMAEXuh7hTXw1ZcOxSfjz5z28AgzXfAJBwYWuBvgVmPENy6bh6vqEmzZuuDokwkUfBATmnHrumvdD8/NQR65Y76YCWk4h/ZS56rRLfJ+iRzQ93CAR69cLV3U8R1DGwbeAd8q/nuGb+L+1WwcH9oqQa2++gUPL7RexWiNT7sEPmEGiRA4gH36BBpUCiSszOPJvnVOLE5ItL4LbkzhDZ+cSuDqLfMmcQ3CZC2xtFsEvogN+tgzu0EBIXAoPo+WoGfwt5DWENm/9fMJ/Jo82i9i6dNngS59wM3lQLoUjqgNeyM86COcPsjawFUH4mbW8CzgRCL9xAOdEvPuDcPZQcu7PBy4QzhrnAhcfcjF4ya6nC7n8YYHB7/z4OnDMYXA63+rljjk+CGFw9qLWH9B8aoHB2a38SC3YpAiD05miGJIiNp2Tt3yUl+Qexgc3ZvCQzvGJqFQvWS+d+2tfT9jt8ExEkRR6wUk0pNBA8r8APiT/QCqaDn9dW4ALVzp8vHDF7xbJ8PdVMX7JTYZPLrmrY2TWU+HT63m0sJAK/ygsxEoiifDPkkismJMG94s5ETdNg/tlqEgBLQk+L6CFS38pcKr0FyxaJsGJomWw3JoAp8utoUIxDucKxYESNwznS9x8cR6Fh4rzrO0gPNxW4BoiGDzWEGFaOQgcaOXQTSgADjWhyPZZFI62z1ZE4y8Gxxt/q3nLMgxPa1mu/GZrCJ7cbO01bRPz8EVt4of1Y4ObgS9vcPcy2fHRmifgfWv++EVr/snvPyoo/Cy3+A8fFQwqa2+nZdjnEP8A/SsrcWyWZckAAAAASUVORK5CYII="
+                                        alt="facebook_log"></a>
+                                <a href="https://www.github.com"><img
+                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAbFBMVEX///8XFRUAAAAUEhL39/cPDAwSDw+1tbX8/PylpaW4uLjj4+Px8fEFAADGxsZnZ2c5ODgvLi7a2tpWVlaamZnp6emtrKzAwMBFRUXT09OUlJSBgIBfXl4gHx9BQEA0MzMnJiZ0dHROTU2Li4tom648AAADoklEQVRoge1YybKjMAwMMjZLIEBYEkJW8v//OMZsNmAj8t7UHCZ9SlWkLllIbcm73RdffPHFP4N9PF1eUcoRvS7+0f495r1X34AjpBxh8+tWe/vfYA68GIASSwGhAImX/5S6CoFai2AA1U/o7QqALFOL+Dl98Cm3Y4GeuQWw4rOwr8DWuJvo0w+CL9fD7oKn5VZuBxN2CwYbU5Mhw+6Cz/4eN2e/4Lm9jdxbYj9t5ubsJxz3vm8c3iShoYe4ARca1tseUeRJ1+/kVmQR6Lrfsri+RJci6dhpguF+90kRX8n17wM9IYyR/igMYsfdSd8HqnXuckg4dM1xeECjUhzW82mJH9SC5NQncWpvQDykAYYrIYPHuyjzwOYI8rJ4x3Bxu//cQdrWE+MMgbDEXTMWOI/RrHXqGDi9o7h3KcWG448ljiWvx3ICx2h5Hy0Jw6UlGRWOxibDvdybgLrEAsXF1ElvxRKlpL7iYqr1hyTi9ImaTtx7OPowQzUe0UeUkMt3uMFJllpMN7eQcwme1iySTgjoe9eWQg8jrZmU8vCK5d7tXmPo+qTb8vk2XLpywYCuCuQqx37OmZ9uQD2MRgTXQS0Ca0w6HDRGhUR+2zBHuZICaNPp/Qa5rhZlcmsDub2V/OOcI8g/rxYduSMb6b76AkrZT3dfHGSjD6c/bVC5ZERTPLkiSbpvZSuKi941XUVztW7SDWoSzwnkT2W41SV5M14qKmI5pBcqBvTIXShO+uFCufyRQ/Fe2VS1osjxkOdlxhASENxkF/owmKq7ELVWYz8q3OZUdpXerxR0Le/ZZDUwK1La9ANJMu8K4heQQpuboCCTl4HQ3HlCAWhzOecptIeg12IhO2VxpbNHhzVBEtM2RE24XdUT8XyjLGsn8bQz28Xo2czdiReETUmNDQuTQSNaXCbXlVRknRdKIJfwtHz3S+QrGW/9BCM0o1PRsc/PW88XSGJqoB5drYvdzG9ezXjOZ4rxnoeOk4taOLZTX5Bd67Sa59KZkUON4ea7Als9pT8lZ9jB9ShSTWPDTjQlx67+u/7ZAs76YKbk2EeLBo6IPYRqL6K3Z3eXSk5WdsRZ7EQ4wTONrvXc11eVf0PcDQ7QXumMhiEFf/q3XC3hlhmnRR6P/kZyiD95dK0GsZ6nZSCn+MVMRRl37a8lJxBvfrEcULRvWBpyBlufKyfwnly4l8i5zD/Rc5MWhwjOszq3zxBtrpFFLMoA7r3kiy+++E/xB7JZJUQkJJhjAAAAAElFTkSuQmCC"
+                                        alt="github_logo"></a>
+
+                                <a href="">
+                                    <h5><a href="login.html">Already have an account? Login here</a>
+                                    </h5>
+                                </a>
+                            </div>
+        </center>
+
+    </div>
+    </div>
+    </div>
+    </div><br><br>
+    <hr><br><br>
+</body>
+<footer>
+    <nav>
+        <ul>
+            <li><a href="index.html"> HOME </a></li>
+            <li><a href="reviews.html"> VIEW REVIEWS </a></li>
+            <li><a href="share.html"> SHARE WITH US </a></li>
+        </ul>
+        <br>
+        <div id="contactus">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out to us at the address below:</p>
+
+            <address>
+                <strong>BookWorm Reviews</strong><br>
+                1234 Main St.<br>
+                Anytown, India<br>
+                <a href="/">bookwormreviews@gmail.com</a><br>
+                Phone: (123) 456-7890
+            </address>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.1749718000488!2d76.65720287590129!3d30.516091096069907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fc32344a6e2d7%3A0x81b346dee91799ca!2sChitkara%20University!5e0!3m2!1sen!2sin!4v1720077580045!5m2!1sen!2sin" width="1500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </nav>
+    <p>&copy; 2024 BookWorm Reviews. All rights reserved.</p>
+    <hr><br>
+</footer>
+
+</html>
